@@ -341,7 +341,7 @@ void loadGameConfAndInitWorld(const std::string &path, const std::string &name,
 	}
 
 	getGameMinetestConfig(gamespec.path, *game_settings);
-	game_settings->removeSecureSettings();
+	// game_settings->removeSecureSettings();
 
 	infostream << "Initializing world at " << final_path << std::endl;
 
